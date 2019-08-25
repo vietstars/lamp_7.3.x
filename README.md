@@ -115,3 +115,4 @@ password: admin
 ## Redis
 
 It comes with Redis. It runs on default port `6379`.
+docker exec -it sc-redis /bin/bash

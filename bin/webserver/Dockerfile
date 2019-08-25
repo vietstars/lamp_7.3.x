@@ -23,10 +23,10 @@ RUN apt-get -y update ; \
 
 # Install xdebug
 RUN pecl install xdebug-2.7.2 ; \
-    docker-php-ext-enable xdebug
+    docker-php-ext-enable xdebug 
 
 # Install redis
-RUN pecl install redis-4.0.1 ; \
+RUN pecl install redis-5.0.2 ; \
     docker-php-ext-enable redis
 
 # Other PHP7 Extensions
